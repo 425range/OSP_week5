@@ -1,9 +1,13 @@
 function add(a, b) {
-  return -1;
+  return a + b;
 }
 
 function add_from(a, b) {
-  return -1;
+  let count = 0;
+  for (let i = a; i <= b; i++) {
+    count += i;
+  }
+  return count;
 }
 
 let in1 = 5;
